@@ -1,0 +1,45 @@
+
+
+.marketplaceCont {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns with a ratio of 1:2 */
+    max-width: 800px;
+    margin: 100px auto;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.newAdCont {
+
+}
+
+.newAdButton {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    max-width: 300px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* To remove extra space beneath the image */
+    margin: auto; /* Center the image */
+}
+
+.plusSymbol {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.newAdButton:hover {
+    background-color: #45a049;
+}

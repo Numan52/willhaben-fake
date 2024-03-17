@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgba(16, 183, 212, 0.158);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    width: 30%;
+    color: #fff;
+    font-size: large;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-input-label span {
+    font-size: 24px;
+}
+
+.file-input-label {
+    width: 50%;
+}
+
+.file-input-label:hover {
+    background-color: #494b4913;
+}
+
+.file-input-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#priceInput {
+    width: 30%;
+}
+
+#category {
+    width: 30%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#image-preview-container {
+    display: flex;
+}
+
+.preview-image {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 10px;
+    border: 1px solid black;
+}

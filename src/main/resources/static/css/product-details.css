@@ -1,0 +1,49 @@
+.product-image {
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.slide {
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+}
+
+.ad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Make sure ad-container takes full width */
+}
+
+.profile-picture {
+    height: 30px;
+    width: auto;
+}
+
+.price-container {
+    margin-bottom: 20px;
+}
+
+.username-container {
+    margin-bottom: 10px;
+}
+
+.user-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+}

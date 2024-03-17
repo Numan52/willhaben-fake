@@ -1,0 +1,65 @@
+.myAds {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: 100px;
+
+}
+
+.myAdsHeader {
+    margin-left: 100px;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(151,151,157,0.7);
+
+
+}
+
+.editImage, .deleteImage {
+    width: 30px;
+    height: auto;
+}
+
+.editButton, .deleteButton {
+    margin: 5px
+}
+
+.productTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.productTitle:hover {
+    text-decoration: underline;
+}
+
+.productPrice {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.productDetails {
+    flex: 3;
+    margin-left: 20px;
+}
+
+.productImage {
+    flex: 3;
+    max-width: 250px;
+    height: auto;
+    background-color: #c2c1c1;
+}
+
+.editContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 20px;
+}

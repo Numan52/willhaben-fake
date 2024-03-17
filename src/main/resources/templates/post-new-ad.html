@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post new ad</title>
+    <link rel="stylesheet" href="/css/post-new-ad.css">
+    <script src="/js/post-new-ad.js"></script>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <div class="container">
+        <h2>Ad details</h2>
+        <form action="/products/create" method="post" enctype="multipart/form-data">
+
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+            
+            <label for="priceInput">Price:</label>
+            <input  type="number" id="priceInput" name="price" required>
+            
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+                <option value="furniture">Furniture</option>
+                <option value="computers">Computers</option>
+                <option value="gaming">Gaming</option>
+                <!-- Add more categories as needed -->
+            </select>
+            
+            <label for="images" class="file-input-label">
+                <span>Select Images</span>
+                <input type="file" id="images" name="images" accept="image/*" multiple onchange="previewImages(event)">
+            </label>
+
+            <div id="image-preview-container">
+
+            </div>
+
+            <button type="submit">Create Ad</button>
+        </form>
+        
+    </div>
+</body>
+</html>
